@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // ✅ Middleware
 app.use(express.json()); // parse JSON bodies
-app.use(cors()); // enable CORS
+app.use(cors({ origin: "https://clothence-frontend.onrender.com" })); // enable CORS
 
 // ✅ Routes
 app.use("/api/auth", userRoute);
