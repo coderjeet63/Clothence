@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.container-global {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 1200px; 
+  margin: 0 auto;
+  background-color: #f5ede0; /* light chocolaty background */
+}
